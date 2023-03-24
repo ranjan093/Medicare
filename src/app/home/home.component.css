@@ -1,0 +1,21 @@
+.img1{
+    object-fit: contain;
+    height: 500px;
+    width: 100%;
+    background-color: gray;
+}
+
+.caracapt {
+    text-align: center;
+    font-size: 20px;
+    color: lightcoral;
+    
+   
+   
+    
+}
+.hed{
+    text-align: center;
+    color: blue;
+
+}

@@ -1,0 +1,141 @@
+{
+  "admin": [
+    {
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "password": "raj@123",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "jmk",
+      "email": "jmk@gmail.com",
+      "password": "abc@123",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "DOLO-650",
+      "price": "330/-",
+      "productoffers": "25% discount",
+      "productdescript": "cures high fever",
+      "productURL": "https://tse2.mm.bing.net/th?id=OIP.qiF7cjl-GFHHDXfi1o7IhwHaD4&pid=Api&P=0",
+      "id": 1
+    },
+    {
+      "name": "COREX-DX",
+      "price": "70/-",
+      "productoffers": "20% discount",
+      "productdescript": "cough syruph, doses should be as directed by physician",
+      "productURL": "https://5.imimg.com/data5/SELLER/Default/2020/11/WG/CK/AV/116591808/corex-dx-syp-60ml-224-500x500.jpg",
+      "id": 2
+    },
+    {
+      "name": "Okacet Cold",
+      "price": "125/-",
+      "productoffers": "20% discount",
+      "productdescript": "for cold and flue, 25*10 tablets in one strip",
+      "productURL": "https://newassets.apollo247.com/pub/media/catalog/product/o/k/oka0003.jpg",
+      "id": 3
+    },
+    {
+      "name": "Combiflam Plus",
+      "price": "220/-",
+      "productoffers": "25% discount",
+      "productdescript": "headache relief medicine",
+      "productURL": "https://cdn01.pharmeasy.in/dam/products_otc/I38223/combiflam-plus-headache-relief-tablet-strip-of-10-tablets-1-1669710901.jpg",
+      "id": 4
+    },
+    {
+      "name": "Paracetamol 500mg",
+      "price": "100/-",
+      "productoffers": "15% discount",
+      "productdescript": "effective pain releif",
+      "productURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWOkkofmQxeAd3uuM8AelM4fWfBSj1GiMjF423ODzMTG5MSoERAN88eEP4tJJ0yCztUqY&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "CILACAR TC 6.25",
+      "price": "189/-",
+      "productoffers": "25% discount",
+      "productdescript": "Cures BP, doses as directed by physician",
+      "productURL": "https://www.practostatic.com/practopedia-images/v3/res-750/cilacar-tc-6-25mg-tablet-10-s_01fae881-618b-482b-9cd0-a5ca55b69401.JPG",
+      "id": 6
+    },
+    {
+      "name": "",
+      "price": "",
+      "productoffers": "",
+      "productdescript": "",
+      "productURL": "",
+      "id": 7
+    }
+  ],
+  "user": [
+    {
+      "name": "jon",
+      "email": "jon@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "ani",
+      "email": "ani@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "ban",
+      "email": "ban@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "jon",
+      "email": "jon@gmail.com",
+      "password": "abc@123",
+      "id": 4
+    },
+    {
+      "name": "jon",
+      "email": "jony@gmail.com",
+      "password": "abc@123",
+      "id": 5
+    },
+    {
+      "name": "kane",
+      "email": "kane@gmail.com",
+      "password": "abc@123",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "DOLO-650",
+      "price": "330/-",
+      "productoffers": "25% discount",
+      "productdescript": "cures high fever",
+      "productURL": "https://tse2.mm.bing.net/th?id=OIP.qiF7cjl-GFHHDXfi1o7IhwHaD4&pid=Api&P=0",
+      "id": 1,
+      "quantity": 1
+    }
+  ]
+}

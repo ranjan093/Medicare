@@ -1,0 +1,17 @@
+.search-item{
+     margin-top: 40px;
+     margin-left:400px;
+}
+.img img{
+    width: 40%;
+    height: 250px;
+}
+.item-detail{
+    margin-left: 15px;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.item-detail h6{
+    color: red;
+    font-size: 30px;
+}

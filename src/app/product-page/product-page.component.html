@@ -1,0 +1,28 @@
+<div class="propage">
+    <div class="proimg">
+        <img src="{{isproduct.productURL}}">
+    </div>
+<div class="prodetail">
+    <h6>{{isproduct.name}}</h6>
+    <p>Price :  {{isproduct.price}}</p>
+    <p>Product offer :  {{isproduct.productoffers}}</p>
+    <p>Product description :  {{isproduct.productdescript}}</p>
+    <div class="btn-grp">
+        
+    
+        <button class="btn-add" (click)="addCart()">Add to Cart</button>
+         
+        <div class="btn">
+            <button (click)="quant1()">-</button>
+            <input type="text" value="{{productQuantity}}">
+            <button (click)="quant2()">+</button>
+        </div>
+        
+        <button class="btn-buy" (click)="buy()">Buy Now</button>
+        
+     
+
+    </div>
+    
+
+</div>

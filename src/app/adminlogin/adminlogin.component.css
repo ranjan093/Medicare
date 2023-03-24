@@ -1,0 +1,32 @@
+.productlist{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: blue;
+   
+}
+table th,table td{
+    border: 2px solid;
+    padding: 5px;
+     min-height: 30px;
+     font-size: 15px;
+    
+}
+table th{
+    font-size: 30px;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.delmess{
+    color: green;
+}
+.butt{
+   background-color: lightgreen;
+    margin-left: 20px;
+}
+.del{
+    background-color: lightcoral;
+
+}

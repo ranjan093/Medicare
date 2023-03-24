@@ -1,0 +1,33 @@
+<div class="productlist">
+    <h1>Products List</h1>
+    <p class="delmess">{{deleteMessage}}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price(in Rupees)</th>
+                <th>Offers</th>
+                <th>Description</th>
+                <th>Action</th>
+                
+        
+             </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of listProduct">
+                <td><img src="{{data.productURL}}" /></td>
+                <td>{{data.name}}</td>
+                <td>{{data.price}}</td>
+                <td>{{data.productoffers}}</td>
+                <td>{{data.productdescript}}</td>
+                <td><button class="del" (click)="productDelete(data.id)">Remove</button><button class="butt" routerLink="/updateproduct/{{data.id}}">Edit</button></td>
+                
+            </tr>
+        </tbody>
+     
+
+    </table>
+
+
+</div>

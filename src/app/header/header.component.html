@@ -1,0 +1,37 @@
+
+<nav class="nav">
+    <h1><a routerLink="/">Medicare</a></h1>
+    
+    <div [ngSwitch]="menuType">
+        <ul *ngSwitchCase="'default'">
+            
+            <li><a routerLink="/">Home</a></li>
+            
+            <li><a routerLink="/admin">Admin</a></li>
+            <li><a routerLink="/user">User</a></li>
+            <li><a routerLink="/aboutus">AboutUs</a></li>
+        </ul>
+        <ul *ngSwitchCase="'user'">
+            <form class="searc" >
+                
+                <input #searchInput class="search" type="search" placeholder="Search medicine name" aria-label="Search">
+                <button class="button" type="submit" (click)="submitSearch(searchInput.value)">Search</button>
+              </form>
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="">Cart({{cartItems}})</a></li>
+            <li><a (click)="userLogOut()" routerLink="/" >LogOut</a></li>
+           
+        </ul>
+    
+    
+    
+        <ul *ngSwitchCase="'admin'">
+            
+            <li><a routerLink="/addproduct">Add Product</a></li>
+            <li><a routerLink="/productlist">Product List</a></li>
+            <li><a (click)="logOut()" routerLink="/">LogOut</a></li>
+        </ul>
+    
+    </div>
+</nav>
+        

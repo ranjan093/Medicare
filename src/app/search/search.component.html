@@ -1,0 +1,14 @@
+<div class="search-item" *ngFor="let data of searchvar">
+    <div class="img">
+        <img src="{{data.productURL}}">
+
+    </div>
+    <div class="item-detail">
+        
+        <h6><a routerLink="/propage/{{data.id}}">{{data.name}}</a></h6>
+        <p>Price:  {{data.price}}</p>
+        <p>Product offer:  {{data.productoffers}}</p>
+        <p>Product description:  {{data.productdescript}}</p>
+    </div>
+
+</div>
